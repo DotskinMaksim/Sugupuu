@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sugupuu>
+	<inimene synniaasta="1953">
+		<nimi>Lylya</nimi>
+		<synniaasta>1953</synniaasta>
+		<synnikoht>Ulyanovsk region</synnikoht>
+	</inimene>
+	<inimene synniaasta="1958">
+		<nimi>Alina</nimi>
+		<synniaasta>1958</synniaasta>
+		<synnikoht>Ulyanovsk region</synnikoht>
+	</inimene>
+	<inimene synniaasta="1949">
+		<nimi>Svetlana</nimi>
+		<synniaasta>1949</synniaasta>
+		<synnikoht>Kyshenyov</synnikoht>
+		<lapsed>
+			<inimene synniaasta="1979">
+				<nimi>Denis</nimi>
+				<synniaasta>1979</synniaasta>
+				<synnikoht>Tatarstan</synnikoht>
+				<lapsed>
+					<inimene synniaasta="2006">
+						<nimi>Maksim</nimi>
+						<synniaasta>2006</synniaasta>
+						<synnikoht>Tallinn</synnikoht>
+					</inimene>
+					<inimene synniaasta="2015">
+						<nimi>Milana</nimi>
+						<synniaasta>2015</synniaasta>
+						<synnikoht>Tallinn</synnikoht>
+					</inimene>
+				</lapsed>
+			</inimene>
+			<inimene synniaasta="1971">
+				<nimi>Vitalik</nimi>
+				<synniaasta>1971</synniaasta>
+				<synnikoht>Tatarstan</synnikoht>
+				<lapsed>
+					<inimene synniaasta="1998">
+						<nimi>Vlad</nimi>
+						<synniaasta>1998</synniaasta>
+						<synnikoht>Tallinn</synnikoht>
+						<lapsed>
+							<inimene synniaasta="2023">
+								<nimi>Milaniya</nimi>
+								<synniaasta>2023</synniaasta>
+								<synnikoht>Tallinn</synnikoht>
+							</inimene>
+						</lapsed>
+					</inimene>
+				</lapsed>
+			</inimene>
+		</lapsed>
+	</inimene>
+</sugupuu>
