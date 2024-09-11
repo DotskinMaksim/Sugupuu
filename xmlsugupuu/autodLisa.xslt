@@ -44,6 +44,8 @@
 				<th>Omanik</th>
 			</tr>
 			<xsl:for-each select="autod/auto">
+				<!-- 1. Pange tabelisse ainult Bmw,Mercedes, Audi ja Volkswagen.  -->
+				<!-- 2. Kui auto numbris on kaks korda sama täht või number, siis need väärtused peate tabelist välja jätma. -->
 				<xsl:if test="(contains(mark, 'BMW') or contains(mark, 'Mercedes') or contains(mark, 'Audi') or contains(mark, 'Volkswagen'))
 					and (substring(registri_number, 1, 1) != substring(registri_number, 2, 1)
 					and substring(registri_number, 1, 1) != substring(registri_number, 3, 1)
