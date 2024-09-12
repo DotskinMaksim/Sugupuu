@@ -12,8 +12,8 @@
         <h1>xml ja xslt andmete kuvamine</h1>
         <div>
             <asp:Xml runat="server"
-                DocumentSource="~/autod.xml"
-                TransformSource="~/autodLisa.xslt" />
+                DocumentSource="~/reisid.xml"
+                TransformSource="~/reisidLisa.xslt" />
         </div>
     </body>
 </html>
