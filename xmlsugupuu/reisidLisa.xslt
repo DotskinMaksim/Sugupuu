@@ -49,8 +49,58 @@
 
 			</xsl:for-each>
 		<hr/>
+		<h3>4. Lisa oma tingimus (nt reisi hind või eriline soovitus peab olema esile tõstetud teatud tingimustel).</h3>
+		<h4>Mul on luksushotellid ja soodsad hotellid kahes erinevas tabelis, olenevalt sellest, kas toitlustamine on hinna sees ja tärnide reiting.</h4>
+
+		<h4>Luksushotellid</h4>
+		<table>
+			<tr>
+				<th>Aadress</th>
+				<th>Toitumine kaasas(1-jah / 0-ei)</th>
+				<th>Tärn hotellis</th>
+			</tr>
+			<xsl:for-each select="reisid/reis/hotell">
+				<tr>
+					<td>
+						<xsl:value-of select="hotelli_aadress"/>
+					</td>
+					<td>
+						<xsl:value-of select="toitumine_kaasas"/>
+					</td>
+					<td>
+						<xsl:value-of select="hotelli_tarnide"/>
+					</td>
+					
+				</tr>
+			</xsl:for-each>
+		</table>
+
+		<h4>=Soodsad hotellid</h4>
+		<table>
+			<tr>
+				<th>Aadress</th>
+				<th>Toitumine kaasas(1-jah / 0-ei)</th>
+				<th>Tärn hotellis</th>
+			</tr>
+			<xsl:for-each select="reisid/reis/hotell">
+				<tr>
+					<td>
+						<xsl:value-of select="hotelli_aadress"/>
+					</td>
+					<td>
+						<xsl:value-of select="toitumine_kaasas"/>
+					</td>
+					<td>
+						<xsl:value-of select="hotelli_tarnide"/>
+					</td>
+
+				</tr>
+			</xsl:for-each>
+		</table>
+		<hr/>
+
 		<h3>5. Kuva iga reisi kogumaksumuse, liites transport, majutuse, ekskursioonide ja muude kulude hinnad kokku.</h3>
-		<h4>Mul on iga viibimispäeva maksumuse arvutamine, kuna struktuuril on juba kogumaksumus</h4>
+		<h4>Mul on iga viibimispäeva maksumuse arvutamine, kuna struktuuril on juba kogumaksumus.</h4>
 		<ul>
 
 			<xsl:for-each select="reisid/reis">
@@ -64,7 +114,7 @@
 					
 					
 					
-					<xsl:value-of select="concat(substring($hind_num div hotell/oode_arv, 1, 5),'€')" />
+					<xsl:value-of select="concat(substring($hind_num div hotell/oode_arv, 1, 5),' €')" />
 				</li>
 
 			</xsl:for-each>

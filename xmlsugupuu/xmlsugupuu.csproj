@@ -133,7 +133,9 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="reisid.xml" />
-    <Content Include="reisidLisa.xslt" />
+    <Content Include="reisidLisa.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
